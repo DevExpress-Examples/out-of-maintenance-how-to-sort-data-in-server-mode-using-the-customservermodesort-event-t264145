@@ -9,7 +9,7 @@ Namespace WinFormsPivotGridCustomServerModeSort
         Public Sub New()
             InitializeComponent()
             entityServerModeSource.QueryableSource =
-                (New WinFormsPivotGridCustomServerModeSort.NWindEntities1()).SalesPersons
+                (New NWindModel.NWindEntities1()).SalesPersons
 
             Dim field As PivotGridField = fieldOrderYear
             pivotGridControl1.BeginUpdate()
